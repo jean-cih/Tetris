@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Background.jpg" />
+    <Resource Include="Assets\EmptyBlock.png" />
+    <Resource Include="Assets\EmptyCell.png" />
+    <Resource Include="Assets\IBlock.png" />
+    <Resource Include="Assets\ICell.png" />
+    <Resource Include="Assets\Icon.ico" />
+    <Resource Include="Assets\JBlock.png" />
+    <Resource Include="Assets\JCell.png" />
+    <Resource Include="Assets\LBlock.png" />
+    <Resource Include="Assets\LCell.png" />
+    <Resource Include="Assets\OBlock.png" />
+    <Resource Include="Assets\OCell.png" />
+    <Resource Include="Assets\SBlock.png" />
+    <Resource Include="Assets\SCell.png" />
+    <Resource Include="Assets\TBlock.png" />
+    <Resource Include="Assets\TCell.png" />
+    <Resource Include="Assets\ZBlock.png" />
+    <Resource Include="Assets\ZCell.png" />
+  </ItemGroup>
+
+</Project>
